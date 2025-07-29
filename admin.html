@@ -50,7 +50,6 @@
         </form>
         <div class="text-center mt-6 text-xs text-gray-400">© 2025 UtkalDarshan. Interactive Odisha Tourism Admin</div>
     </div>
-
     <script>
         // Demo admin credentials—customize/add for real teams
         const ADMINS = [
@@ -69,7 +68,7 @@
                 document.getElementById("loginError").innerText = "Login successful! Redirecting...";
                 document.getElementById("loginError").classList.add("animate__animated", "animate__fadeInDown");
                 setTimeout(function () {
-                    window.location.href = 'UtkalDarshan - Divine Journeys Across Odisha.html?admin=' + encodeURIComponent(user) + '&avatar=' + encodeURIComponent(found.avatar);
+                    window.location.href = 'https://surya7540.github.io/UtkalDarshan/?admin=' + encodeURIComponent(user) + '&avatar=' + encodeURIComponent(found.avatar);
                 }, 1000);
             } else {
                 document.getElementById("loginError").innerText = "Invalid credentials. Try again.";
